@@ -1,15 +1,20 @@
-#!/bin/bash
+# #!/bin/bash
 
-TMPDIR=$(mktemp -d)
+# TMPDIR=$(mktemp -d)
 
-CURRENT=$PWD
+# CURRENT=$PWD
 
-cd $TMPDIR
+# cd $TMPDIR
 
-for script in ~/.dotfiles/scripts/*; do
-  bash "$script"
-done
+# for script in ~/.dotfiles/scripts/*; do
+#   bash "$script"
+# done
 
-cd $CURRENT
+# cd $CURRENT
 
-rm -rf $TMPDIR
+# rm -rf $TMPDIR
+
+# sudo apt install qemu-user-static & disown
+npm i -g yarn lerna@4.0.0
+
+lerna boostrap
