@@ -1,4 +1,4 @@
-# #!/bin/bash
+#!/bin/bash
 
 # TMPDIR=$(mktemp -d)
 
